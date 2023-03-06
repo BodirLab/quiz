@@ -1,0 +1,18 @@
+[
+    {
+        "question": "Welche Flossen dienen dem Vortrieb der Fische?",
+        "answers": [
+            {
+                "text": "Schwanzflossen",
+                "image": "flosse.jpg",
+                "correct": true
+            },
+            {
+                "text": "Rücken- und Afterflossen"
+            },
+            {
+                "text": "Brust- und Bauchflossen"
+            }
+        ]
+    }
+]
