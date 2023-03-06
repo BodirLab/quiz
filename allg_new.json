@@ -1,0 +1,886 @@
+[
+    {
+        "question": "Welche Flossen dienen dem Vortrieb der Fische?",
+        "answers": [
+            {
+                "text": "Schwanzflossen",
+                "correct": true
+            },
+            {
+                "text": "Rücken- und Afterflossen",
+                "correct": false
+            },
+            {
+                "text": "Brust- und Bauchflossen",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Welche Flossen dienen den Fischen beim Schwimmen zur Stabilisation?",
+        "answers": [
+            {
+                "text": "Schwanzflossen",
+                "correct": false
+            },
+            {
+                "text": "Rücken- und Afterflossen",
+                "correct": true
+            },
+            {
+                "text": "Brust- und Bauchflossen",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Welche Flossen dienen den Fischen zum genauen Manövrieren?",
+        "answers": [
+            {
+                "text": "Schwanzflossen",
+                "correct": false
+            },
+            {
+                "text": "Rücken- und Afterflossen",
+                "correct": false
+            },
+            {
+                "text": "Brust- und Bauchflossen",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Bei welchen Fischen können die Barteln zur Artenbestimmung herangezogen werden?",
+        "answers": [
+            {
+                "text": "Bei einigen Karpfenartigen (Cypriniden)",
+                "correct": true
+            },
+            {
+                "text": "Bei den Lachsartigen (Salmoniden)",
+                "correct": false
+            },
+            {
+                "text": "Bei allen Barschartigen",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In welcher Abbildung ist der Sitz der Fischschuppen korrekt dargestellt?",
+        "answers": [
+            {
+                "text": "",
+                "correct": false
+            },
+            {
+                "text": "",
+                "correct": false
+            },
+            {
+                "text": "",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Was kann anhand der Schuppen eines Fisches bestimmt werden?",
+        "answers": [
+            {
+                "text": "Das Alter",
+                "correct": true
+            },
+            {
+                "text": "Das Geschlecht",
+                "correct": false
+            },
+            {
+                "text": "Das Gewicht",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Welcher Fisch hat keine Schuppen?",
+        "answers": [
+            {
+                "text": "Wels",
+                "correct": true
+            },
+            {
+                "text": "Aal",
+                "correct": false
+            },
+            {
+                "text": "Rutte (Quappe)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Welche Fische haben Schlundzähne?",
+        "answers": [
+            {
+                "text": "Karpfenartige",
+                "correct": true
+            },
+            {
+                "text": "Lachsartige",
+                "correct": false
+            },
+            {
+                "text": "Barschartige",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Wie passen Fische ihre Körperfärbung der Umgebung an?",
+        "answers": [
+            {
+                "text": "Durch Hormone",
+                "correct": false
+            },
+            {
+                "text": "Über Auge, Gehirn und Nerven",
+                "correct": true
+            },
+            {
+                "text": "Durch die Wassertemperatur",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Welche Organe befinden sich im Schädel der Fische?",
+        "answers": [
+            {
+                "text": "Das Vor-, Mittelund Nachhirn",
+                "correct": true
+            },
+            {
+                "text": "Der Ferntastsinn und die Gallenblase",
+                "correct": false
+            },
+            {
+                "text": "Das Herz und die Niere",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Wo befindet sich der Ferntastsinn bei den Fischen?",
+        "answers": [
+            {
+                "text": "In den Augen",
+                "correct": false
+            },
+            {
+                "text": "Auf den Barteln",
+                "correct": false
+            },
+            {
+                "text": "An beiden Körperseiten des Fisches",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Wo liegen bei den Fischen die meisten Geschmacksknospen?",
+        "answers": [
+            {
+                "text": "Am Kopf, an den Lippen und Barteln",
+                "correct": true
+            },
+            {
+                "text": "An den Brust- und Bauchflossen",
+                "correct": false
+            },
+            {
+                "text": "Auf den Schuppen",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In welcher Abbildung kann der Fisch den Angler erkennen?",
+        "answers": [
+            {
+                "text": "",
+                "correct": false
+            },
+            {
+                "text": "",
+                "correct": true
+            },
+            {
+                "text": "",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Wie muss der Fisch betäubt werden?",
+        "answers": [
+            {
+                "text": "Durch einen kräftigen Schlag auf das Nachhirn (Kopfschlag)",
+                "correct": true
+            },
+            {
+                "text": "Durch einen Herzstich",
+                "correct": false
+            },
+            {
+                "text": "Durch Durchtrennen der Wirbelsäule",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Wie ist der Geschmackssinn der Fische ausgebildet?",
+        "answers": [
+            {
+                "text": "Schlecht",
+                "correct": false
+            },
+            {
+                "text": "Gar nicht",
+                "correct": false
+            },
+            {
+                "text": "Sehr gut",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "An welcher Stelle des Fischschädels befindet sich das Nachhirn?",
+        "answers": [
+            {
+                "text": "Zwischen dem hinteren Augenrand und dem Schädelende",
+                "correct": true
+            },
+            {
+                "text": "Über den Nasengruben",
+                "correct": false
+            },
+            {
+                "text": "Unter dem ersten Rückenwirbel",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Wie gut können Fische sehen?",
+        "answers": [
+            {
+                "text": "Sie sind normalsichtig und sehen schlecht im Dunkeln",
+                "correct": false
+            },
+            {
+                "text": "Sie sind weitsichtig und sehen schlecht im Dunkeln",
+                "correct": false
+            },
+            {
+                "text": "Sie sind kurzsichtig und sehen gut im Dunkeln sowie im Hellen",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Wo befinden sich bei den Fischen die Geschmacksknospen?",
+        "answers": [
+            {
+                "text": "Nur auf der Schwanzflosse",
+                "correct": false
+            },
+            {
+                "text": "Nur auf der Zunge",
+                "correct": false
+            },
+            {
+                "text": "Auf dem ganzen Körper",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Wozu dient die Schleimschicht bei Fischen?",
+        "answers": [
+            {
+                "text": "Sie ist ein Schutz gegen äußere Einflüsse und vermindert den Reibungswiderstand",
+                "correct": true
+            },
+            {
+                "text": "Sie sorgt für eine prächtige Färbung des Fisches",
+                "correct": false
+            },
+            {
+                "text": "Sie sorgt für einen guten Halt der Schuppen",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Welche Geräusche können Fische im Normalfall nicht wahrnehmen?",
+        "answers": [
+            {
+                "text": "Trampeln im Boot",
+                "correct": false
+            },
+            {
+                "text": "Gespräche am Ufer",
+                "correct": true
+            },
+            {
+                "text": "Schlittschuhlaufen auf dem Eis",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In welcher Abbildung ist die Atmung der Fische korrekt dargestellt?",
+        "answers": [
+            {
+                "text": "",
+                "correct": true
+            },
+            {
+                "text": "",
+                "correct": false
+            },
+            {
+                "text": "",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Welcher der aufgeführten Fische hat das höchste Sauerstoffbedürfnis?",
+        "answers": [
+            {
+                "text": "Karausche",
+                "correct": false
+            },
+            {
+                "text": "Zander",
+                "correct": false
+            },
+            {
+                "text": "Bachforelle",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Welcher Fisch hat für den Menschen besonders schleimhautreizendes Blut?",
+        "answers": [
+            {
+                "text": "Barbe",
+                "correct": false
+            },
+            {
+                "text": "Kaulbarsch",
+                "correct": false
+            },
+            {
+                "text": "Wels",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Welcher Fisch hat für den Menschen besonders schleimhautreizendes Blut?",
+        "answers": [
+            {
+                "text": "Barbe",
+                "correct": false
+            },
+            {
+                "text": "Rotfeder",
+                "correct": false
+            },
+            {
+                "text": "Aal",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Das Blut welches Fisches darf nicht mit offenen Wunden in Kontakt kommen?",
+        "answers": [
+            {
+                "text": "Petermännchen",
+                "correct": false
+            },
+            {
+                "text": "Aal",
+                "correct": true
+            },
+            {
+                "text": "Zander",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In welcher Abbildung zeigt der Pfeil auf Hauptnervenstrang und Hauptblutgefäße?",
+        "answers": [
+            {
+                "text": "26",
+                "correct": true
+            },
+            {
+                "text": "",
+                "correct": false
+            },
+            {
+                "text": "",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Mit welchem Organ atmen die Fische?",
+        "answers": [
+            {
+                "text": "Herz",
+                "correct": false
+            },
+            {
+                "text": "Niere",
+                "correct": false
+            },
+            {
+                "text": "Kiemen",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Welche Abbildung zeigt den Sitz des Fischherzens richtig?",
+        "answers": [
+            {
+                "text": "28",
+                "correct": true
+            },
+            {
+                "text": "",
+                "correct": false
+            },
+            {
+                "text": "",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Welche karpfenartigen Fische (Cypriniden) verhalten sich im Alter räuberisch?",
+        "answers": [
+            {
+                "text": "Döbel, Rapfen",
+                "correct": true
+            },
+            {
+                "text": "Gründling, Moderlieschen",
+                "correct": false
+            },
+            {
+                "text": "Rotfeder, Schleie",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Welche Abbildung zeigt den Sitz der Galle richtig?",
+        "answers": [
+            {
+                "text": "30",
+                "correct": true
+            },
+            {
+                "text": "",
+                "correct": false
+            },
+            {
+                "text": "",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Welche Aussage ist richtig? Karpfen haben ...",
+        "answers": [
+            {
+                "text": "keine Fettflosse und eine einteilige Schwimmblase",
+                "correct": false
+            },
+            {
+                "text": "eine Fettflosse und keine Schwimmblase",
+                "correct": false
+            },
+            {
+                "text": "keine Fettflosse und eine zweiteilige Schwimmblase",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Bei welchen Fischen dauert die natürliche Entwicklung des Laichs am längsten?",
+        "answers": [
+            {
+                "text": "Bei den Herbst- und Winterlaichern",
+                "correct": true
+            },
+            {
+                "text": "Bei den Frühjahrslaichern",
+                "correct": false
+            },
+            {
+                "text": "Bei den Sommerlaichern",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Was ist ein Milchner?",
+        "answers": [
+            {
+                "text": "Ein Jungfisch",
+                "correct": false
+            },
+            {
+                "text": "Ein weiblicher Fisch",
+                "correct": false
+            },
+            {
+                "text": "Ein männlicher Fisch",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Was ist ein Rogner?",
+        "answers": [
+            {
+                "text": "Ein Jungfisch",
+                "correct": false
+            },
+            {
+                "text": "Ein weiblicher Fisch",
+                "correct": true
+            },
+            {
+                "text": "Ein männlicher Fisch",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Welche Fischart wandert zum Laichen vom Meer ins Süßwasser?",
+        "answers": [
+            {
+                "text": "Lachs",
+                "correct": true
+            },
+            {
+                "text": "Aal",
+                "correct": false
+            },
+            {
+                "text": "Bachforelle",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Welche Fischart wandert zum Laichen vom Süßwasser ins Meer?",
+        "answers": [
+            {
+                "text": "Lachs",
+                "correct": false
+            },
+            {
+                "text": "Aal",
+                "correct": true
+            },
+            {
+                "text": "Bachforelle",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Welcher Fisch laicht im Herbst und Winter?",
+        "answers": [
+            {
+                "text": "Rutte (Quappe)",
+                "correct": true
+            },
+            {
+                "text": "Hecht",
+                "correct": false
+            },
+            {
+                "text": "Brassen",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Welcher Fisch laicht im Frühjahr?",
+        "answers": [
+            {
+                "text": "Rutte (Quappe)",
+                "correct": false
+            },
+            {
+                "text": "Hecht",
+                "correct": true
+            },
+            {
+                "text": "Brassen",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Welcher Fisch laicht im Sommer?",
+        "answers": [
+            {
+                "text": "Rutte (Quappe)",
+                "correct": false
+            },
+            {
+                "text": "Hecht",
+                "correct": false
+            },
+            {
+                "text": "Brassen",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Was bezeichnet man als Laichausschlag?",
+        "answers": [
+            {
+                "text": "Harte, weißlichkörnige Gebilde auf der Hautoberfläche",
+                "correct": true
+            },
+            {
+                "text": "Eine beim Laichen zugezogene Hautverletzung",
+                "correct": false
+            },
+            {
+                "text": "Ein Kennzeichen für den abgelaichten Fisch",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Welche der aufgeführten Fische sind Kieslaicher?",
+        "answers": [
+            {
+                "text": "Salmoniden, Nase, Barbe",
+                "correct": true
+            },
+            {
+                "text": "Hecht, Zander, Barsch, Brassen (Blei)",
+                "correct": false
+            },
+            {
+                "text": "Karpfen, Schleie, Karausche, Rotauge",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In welcher Abbildung zeigt der Pfeil auf die Lage der Niere?",
+        "answers": [
+            {
+                "text": "42",
+                "correct": true
+            },
+            {
+                "text": "",
+                "correct": false
+            },
+            {
+                "text": "",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Was sind Fischegel?",
+        "answers": [
+            {
+                "text": "Darmschmarotzer",
+                "correct": false
+            },
+            {
+                "text": "Blutsaugende Außenparasiten",
+                "correct": true
+            },
+            {
+                "text": "Auf den Kiemen schmarotzende Kleinkrebse",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Welche Reaktion des Fisches Iässt auf eine Erkrankung schließen?",
+        "answers": [
+            {
+                "text": "Starkes Wühlen im Schlamm",
+                "correct": false
+            },
+            {
+                "text": "Besonders aktive Nahrungssuche",
+                "correct": false
+            },
+            {
+                "text": "Verminderter Fluchtreflex",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Welche der aufgeführten Fische heften ihren Laich hauptsächlich an Kraut und Gestrüpp?",
+        "answers": [
+            {
+                "text": "Brassen (Bleie), Schleie, Zander und Barsche",
+                "correct": true
+            },
+            {
+                "text": "Forellen, Lachse und Saiblinge",
+                "correct": false
+            },
+            {
+                "text": "Barben, Äschen und Rutten (Quappen)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In welcher Aufstellung ist die Anzahl der Barteln bei den Fischen richtig angegeben?",
+        "answers": [
+            {
+                "text": "Schleie -1, Rutte (Quappe) -4, Karpfen -6, Wels -2, Barbe -2, Gründling -4",
+                "correct": false
+            },
+            {
+                "text": "Schleie -2, Rutte (Quappe) -1, Karpfen -4, Wels -6, Barbe -4, Gründling -2",
+                "correct": true
+            },
+            {
+                "text": "Schleie -2, Rutte (Quappe) -6, Karpfen -4, Wels -4, Barbe -2, Gründling -2",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Wo laicht die Forelle?",
+        "answers": [
+            {
+                "text": "Am Kraut",
+                "correct": false
+            },
+            {
+                "text": "Im Freiwasser",
+                "correct": false
+            },
+            {
+                "text": "Auf Kiesbänken",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Wo liegen die Laichplätze der Meerforelle?",
+        "answers": [
+            {
+                "text": "Im Salzwasser",
+                "correct": false
+            },
+            {
+                "text": "Im Brackwasser",
+                "correct": false
+            },
+            {
+                "text": "Im Süßwasser",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Welcher Fisch wandert zur Laichzeit vom Meer in die Flüsse und hat einen typischen Gurkengeruch?",
+        "answers": [
+            {
+                "text": "Hering",
+                "correct": false
+            },
+            {
+                "text": "Stint",
+                "correct": true
+            },
+            {
+                "text": "Aal",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Welcher der abgebildeten Fische hat bezahnte Kiefer?",
+        "answers": [
+            {
+                "text": "50",
+                "correct": false
+            },
+            {
+                "text": "",
+                "correct": true
+            },
+            {
+                "text": "",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Was sind Blankaale?",
+        "answers": [
+            {
+                "text": "Hell gefärbte Aale mit breiter Maulspalte",
+                "correct": false
+            },
+            {
+                "text": "Aale, die in das Süßwasser aufsteigen",
+                "correct": false
+            },
+            {
+                "text": "Aale, die zum Laichen abwandern",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Welchem der aufgeführten Fische fehlen die Bauchflossen?",
+        "answers": [
+            {
+                "text": "Barbe",
+                "correct": false
+            },
+            {
+                "text": "Hecht",
+                "correct": false
+            },
+            {
+                "text": "Aal",
+                "correct": true
+            }
+        ]
+    }
+]

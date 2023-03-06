@@ -9,21 +9,11 @@ let currentQuestion = {};
 let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
-let availableQuesions = [];
+let availableQuestions = null;
 
-let questions = [];
-
-fetch('allg.json')
-    .then((res) => {
-        return res.json();
-    })
-    .then((loadedQuestions) => {
-        questions = loadedQuestions;
-        startGame();
-    })
-    .catch((err) => {
-        console.error(err);
-    });
+questions2.loadQuestions('allg')
+    .then(() => { startGame() })
+    .catch(error => console.error('whoops', error))
 
 //CONSTANTS
 const CORRECT_BONUS = 10;
@@ -32,14 +22,14 @@ const MAX_QUESTIONS = 3;
 startGame = () => {
     questionCounter = 0;
     score = 0;
-    availableQuesions = [...questions];
+    availableQuestions = questions2.getRandomQuestions(MAX_QUESTIONS)
     getNewQuestion();
     game.classList.remove('hidden');
     loader.classList.add('hidden');
 };
 
 getNewQuestion = () => {
-    if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+    if (availableQuestions.length === 0) {
         localStorage.setItem('mostRecentScore', score);
         //go to the end page
         return window.location.assign('/end.html');
@@ -49,18 +39,23 @@ getNewQuestion = () => {
     //Update the progress bar
     progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
-    const questionIndex = Math.floor(Math.random() * availableQuesions.length);
-    currentQuestion = availableQuesions[questionIndex];
+    currentQuestion = availableQuestions.pop();
     question.innerText = currentQuestion.question;
 
     choices.forEach((choice) => {
         const number = choice.dataset['number'];
-        choice.innerText = currentQuestion['choice' + number];
+        renderAnswer(choice, currentQuestion.answers[number - 1])
     });
 
-    availableQuesions.splice(questionIndex, 1);
     acceptingAnswers = true;
 };
+
+renderAnswer = (answerElement, answerData) => {
+    answerElement.innerText = answerData.text
+    if (answerData.image) {
+        // todo: load image and display it
+    }
+}
 
 choices.forEach((choice) => {
     choice.addEventListener('click', (e) => {
@@ -70,11 +65,12 @@ choices.forEach((choice) => {
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset['number'];
 
-        const classToApply =
-            selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
-
-        if (classToApply === 'correct') {
+        let classToApply
+        if (currentQuestion.answers[selectedAnswer - 1].correct) {
             incrementScore(CORRECT_BONUS);
+            classToApply = 'correct'
+        } else {
+            classToApply = 'incorrect'
         }
 
         selectedChoice.parentElement.classList.add(classToApply);
