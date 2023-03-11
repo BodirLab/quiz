@@ -24,7 +24,13 @@
     padding: 1.5rem;
     width: 100%;
   }
-  
+
+  .choice-text .image { display: none; }
+  .choice-text .text { display: block; }
+
+  .choice-text.has_image .image { display: block; }
+  .choice-text.has_image .text { display: none; }
+
   .correct {
     background-color: #28a745;
   }

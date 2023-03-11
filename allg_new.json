@@ -72,14 +72,17 @@
         "answers": [
             {
                 "text": "",
+                "image":"5a.png",
                 "correct": false
             },
             {
                 "text": "",
+                "image":"5b.png",
                 "correct": false
             },
             {
                 "text": "",
+                "image":"5c.png",
                 "correct": true
             }
         ]

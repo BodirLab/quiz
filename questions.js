@@ -1,5 +1,5 @@
 const catalogs = {
-    'allg': 'allg.json'
+    'allg': 'allg_new.json'
 }
 
 questions2 = {
@@ -54,7 +54,7 @@ questions2 = {
         const questions = []
         const catalogCopy = [...this.catalog]
         const numberOfQuestions = Math.min(count, catalogCopy.length)
-        for (let i = 0; i < count; i++) {
+        for (let i = 0; i < numberOfQuestions; i++) {
             const questionIndex = Math.floor(Math.random() * numberOfQuestions)
             questions.push(catalogCopy[questionIndex])
             catalogCopy.splice(questionIndex, 1)

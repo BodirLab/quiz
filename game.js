@@ -51,9 +51,14 @@ getNewQuestion = () => {
 };
 
 renderAnswer = (answerElement, answerData) => {
-    answerElement.innerText = answerData.text
+    const textEl = answerElement.getElementsByClassName('text')[0]
+    const imageEl = answerElement.getElementsByClassName('image')[0]
     if (answerData.image) {
-        // todo: load image and display it
+        imageEl.setAttribute('src', '/images/'+answerData.image)
+        answerElement.classList.add('has_image')
+    } else {
+        textEl.textContent = answerData.text
+        answerElement.classList.remove('has_image')
     }
 }
 
